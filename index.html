@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HomePilot — умный дом</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- название  описание  картинка -->
+  <header class="bg-light py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-6">
+          <h1 class="fw-bold">HomePilot</h1>
+          <p class="text-secondary">
+            Умный дом, который делает быт проще: управляет светом, климатом и безопасностью.
+            Всё в одном приложении — дома и удалённо.
+          </p>
+          <a href="#contact" class="btn btn-primary">Оставить заявку</a>
+          <a href="#features" class="btn btn-outline-primary ms-2">Преимущества</a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid rounded w-100"
+                src="img/smarthome.jpg"
+                alt="Умный дом — управление с панели"
+                style="max-height: 420px; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Что умеет HomePilot</h2>
+
+      <div class="row g-3">
+        <div class="col-12 col-md-4">
+          <div class="border rounded p-3 h-100">
+            <h5 class="mb-2">Управление светом</h5>
+            <p class="text-secondary mb-0">
+              Сценарии “Утро/Вечер”, выключение по таймеру, контроль из приложения.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="border rounded p-3 h-100">
+            <h5 class="mb-2">Климат и комфорт</h5>
+            <p class="text-secondary mb-0">
+              Температура, влажность, проветривание — автоматические режимы и расписания.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="border rounded p-3 h-100">
+            <h5 class="mb-2">Безопасность</h5>
+            <p class="text-secondary mb-0">
+              Датчики движения/дыма/протечки, уведомления и быстрые действия.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-3 mt-1">
+        <div class="col-12 col-md-4">
+          <div class="border rounded p-3 h-100">
+            <h5 class="mb-2">Сценарии</h5>
+            <p class="text-secondary mb-0">
+              Одна кнопка — и дом переключается в нужный режим (сон, кино, отъезд).
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="border rounded p-3 h-100">
+            <h5 class="mb-2">Удалённый доступ</h5>
+            <p class="text-secondary mb-0">
+              Управление из любого места: включить отопление, проверить датчики, выключить свет.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="border rounded p-3 h-100">
+            <h5 class="mb-2">Экономия энергии</h5>
+            <p class="text-secondary mb-0">
+              Авто-выключение устройств и контроль потребления для снижения счетов.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- форма и контакты -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Связаться с нами</h2>
+
+      <div class="row g-4">
+        <div class="col-12 col-lg-6">
+          <form class="bg-white border rounded p-3">
+            <div class="mb-3">
+              <label class="form-label">Имя</label>
+              <input type="text" class="form-control" placeholder="Ваше имя">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Телефон или Email</label>
+              <input type="text" class="form-control" placeholder="+7... или name@example.com">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Что хотите подключить?</label>
+              <select class="form-select">
+                <option>Освещение</option>
+                <option>Климат (термостаты/кондиционер)</option>
+                <option>Безопасность (датчики/камеры)</option>
+                <option>Полный комплект</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Комментарий</label>
+              <textarea class="form-control" rows="4" placeholder="Например, 2-комнатная квартира, нужен свет и датчик протечки"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Отправить</button>
+          </form>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="bg-white border rounded p-3 h-100">
+            <p class="mb-2"><b>Email:</b> hello@homepilot.example</p>
+            <p class="mb-2"><b>Телефон:</b> +7 (900) 000-00-00</p>
+            <p class="mb-0"><b>График:</b> Пн–Пт, 10:00–19:00</p>
+
+            <hr>
+            <p class="text-secondary mb-0">
+              Консультация бесплатна. Подберём устройства и сценарии под вашу квартиру или дом.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-3">
+    <div class="container text-secondary">
+      © HomePilot, 2025
+    </div>
+  </footer>
+</body>
+</html>
